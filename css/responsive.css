@@ -1,0 +1,139 @@
+@media screen and (max-width:567px) {
+    section {
+        padding-top: 60px;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    nav ul li {
+        margin-left: 10px;
+    }
+    .banner {
+        width: auto;
+        padding: 0px 10px;
+    }
+    .banner-image {
+        padding: 0px 20px;
+    }
+    .banner-title {
+        margin-top: 40px;
+        font-size: 32px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    /* features */
+    .features {
+        padding: 80px 0px;
+    }
+    .teams {
+        grid-template-columns: 1fr;
+    }
+    .teams img {
+        width: 100%;
+    }
+    .teams-para {
+        margin: 10px 0px;
+    }
+    .feature-items {
+        flex-direction: column;
+        padding: 0px 40px;
+    }
+
+    /* enjoy */
+    .enjoy {
+        flex-direction: column;
+        padding: 60px 0px;
+    }
+    .enjoy-image img {
+        width: 100%;
+        padding: 0px;
+    }
+    .texts {
+        padding: 0px 20px;
+    }
+    .enjoy-image img {
+        margin-left: 0px;
+    }
+    .card {
+        padding: 20px;
+    }
+    .card-para {
+        margin-left: 15px;
+    }
+    .texts {
+        padding: 0px;
+    }
+    .ten-years-exp {
+        width: 60%;
+    }
+    /* facts */
+    .facts-texts {
+        margin-left: 15px;
+    }
+    .new-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* sponsors */
+    .sponsors-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .sponsors-area img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:567px) and (max-width:960px) {
+    .nav {
+        justify-content: space-around;
+    }
+    .banner {
+        width: 500px;
+    }
+    /* features */
+    .feature-items {
+        flex-direction: column;
+        padding: 0px 40px;
+    }
+    .teams-two {
+        margin-left: 40px;
+    }
+    .banner-image {
+        padding: 0px 20px;
+    }
+    /* enjoy */
+    .enjoy {
+        flex-direction: column;
+    }
+    /* facts */
+    .facts-texts {
+        margin-left: 15px;
+    }
+    /* sponsors */
+    .sponsors-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .sponsors-area img {
+        width: 30%;
+    }
+}
+
+
+
+@media screen and (min-width:961px) and (max-width:1024px) {
+    .nav {
+        justify-content: space-around;
+    }
+    .banner-image {
+        padding: 0px 20px;
+    }
+}
